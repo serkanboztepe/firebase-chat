@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat Uygulaması</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+      <div class="panel panel-primary">
+          <div class="panel-heading">Firebase Basit Chat Uygulaması</div>
+          <div class="panel-body">
+              <p id="messages"></p>
+              <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Mesaj ..." id="name">
+              </div>
+              <button type="submit" class="btn btn-default" onclick="send()">Gönder</button>
+          </div>
+      </div>
+  </div>
+    
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+<script src="js/chat.js"></script>
+
+</body>
+</html>
